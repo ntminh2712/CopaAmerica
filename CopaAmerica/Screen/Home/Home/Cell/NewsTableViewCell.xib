@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewsTableViewCell" rowHeight="378" id="KGk-i7-Jjw" customClass="NewsTableViewCell" customModule="CopaAmerica" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="485" height="378"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="485" height="377.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nBI-Z3-BX1">
+                        <rect key="frame" x="20" y="11" width="445" height="356"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_news" translatesAutoresizingMaskIntoConstraints="NO" id="3eu-AB-TOh">
+                                <rect key="frame" x="0.0" y="0.0" width="445" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="kmL-kn-O1Q"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is the correct spelling for TEEXT? word (Teext) may be misspelled" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KY3-sx-oaN">
+                                <rect key="frame" x="10" y="240" width="425" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="9qR-fC-NeO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PlH-Tl-32X">
+                                <rect key="frame" x="10" y="288" width="425" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="m6K-gj-h4D"/>
+                                </constraints>
+                                <string key="text">This word (Teext) may be misspelled. Below you can find the suggested words which we Using Studio\u{E2}\u{80}\u{99}s device mirroring feature, which works with the InVision iOS and Android apps, you can view your</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.57601445910000004" green="0.57646638149999996" blue="0.57608443499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wo8-d5-60i">
+                                <rect key="frame" x="0.0" y="0.0" width="445" height="356"/>
+                                <connections>
+                                    <action selector="showDetail:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="6oz-5X-v73"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3eu-AB-TOh" firstAttribute="top" secondItem="nBI-Z3-BX1" secondAttribute="top" id="4x5-Fv-NaP"/>
+                            <constraint firstAttribute="bottom" secondItem="wo8-d5-60i" secondAttribute="bottom" id="8Kl-g8-nWf"/>
+                            <constraint firstAttribute="trailing" secondItem="3eu-AB-TOh" secondAttribute="trailing" id="AVy-nE-Uhc"/>
+                            <constraint firstItem="wo8-d5-60i" firstAttribute="leading" secondItem="nBI-Z3-BX1" secondAttribute="leading" id="Cbm-ta-t4Q"/>
+                            <constraint firstItem="PlH-Tl-32X" firstAttribute="leading" secondItem="nBI-Z3-BX1" secondAttribute="leading" constant="10" id="E86-j8-a0e"/>
+                            <constraint firstItem="KY3-sx-oaN" firstAttribute="leading" secondItem="nBI-Z3-BX1" secondAttribute="leading" constant="10" id="Xer-mN-m0d"/>
+                            <constraint firstAttribute="bottom" secondItem="PlH-Tl-32X" secondAttribute="bottom" constant="10" id="Y1b-DC-yjm"/>
+                            <constraint firstItem="3eu-AB-TOh" firstAttribute="leading" secondItem="nBI-Z3-BX1" secondAttribute="leading" id="iOl-5c-CDi"/>
+                            <constraint firstItem="KY3-sx-oaN" firstAttribute="top" secondItem="3eu-AB-TOh" secondAttribute="bottom" constant="10" id="kcx-9b-hpQ"/>
+                            <constraint firstAttribute="trailing" secondItem="PlH-Tl-32X" secondAttribute="trailing" constant="10" id="pXz-7z-V7o"/>
+                            <constraint firstItem="PlH-Tl-32X" firstAttribute="top" secondItem="KY3-sx-oaN" secondAttribute="bottom" constant="8" id="sEM-BN-pmM"/>
+                            <constraint firstAttribute="trailing" secondItem="KY3-sx-oaN" secondAttribute="trailing" constant="10" id="vcm-Ft-gdl"/>
+                            <constraint firstAttribute="trailing" secondItem="wo8-d5-60i" secondAttribute="trailing" id="xSi-bi-4Cs"/>
+                            <constraint firstItem="wo8-d5-60i" firstAttribute="top" secondItem="nBI-Z3-BX1" secondAttribute="top" id="ykQ-UQ-IAn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="nBI-Z3-BX1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="18d-lX-7XX"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="nBI-Z3-BX1" secondAttribute="trailing" id="3He-et-dGU"/>
+                    <constraint firstItem="nBI-Z3-BX1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="o1L-YY-tbV"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="nBI-Z3-BX1" secondAttribute="bottom" id="oYH-uv-aDK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgNews" destination="3eu-AB-TOh" id="xZm-Me-r9m"/>
+                <outlet property="lbDescrption" destination="PlH-Tl-32X" id="Xls-hU-p2a"/>
+                <outlet property="lbTitle" destination="KY3-sx-oaN" id="ZXK-Lf-UUw"/>
+                <outlet property="viewBound" destination="nBI-Z3-BX1" id="8cU-Es-RjC"/>
+            </connections>
+            <point key="canvasLocation" x="264.80000000000001" y="304.04797601199402"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_news" width="690" height="340"/>
+    </resources>
+</document>

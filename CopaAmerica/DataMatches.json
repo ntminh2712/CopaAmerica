@@ -1,0 +1,56 @@
+{
+    "data":{
+        "matches":{
+            "id": 1,
+            "host": "Brazil",
+            "guest": "Bolivia",
+            "time": "11:30",
+            "date": "12/02/2019",
+            "isFavorites": false,
+            "createdAt": "12/02/2019",
+            "updatedAt": "12/02/2019",
+            "status": 1
+        }
+    }
+}
+{
+    "data": {
+        "scorers": [
+            {
+                "name":"Lionel Messi",
+                "nation": "Argentina",
+                "goals": 10,
+                "top": 1
+            },
+            {
+                "name":"Lionel Messi",
+                "nation": "Argentina",
+                "goals": 10,
+                "top": 1
+            },
+            {
+                "name":"Lionel Messi",
+                "nation": "Argentina",
+                "goals": 10,
+                "top": 1
+            },
+            {
+                "name":"Lionel Messi",
+                "nation": "Argentina",
+                "goals": 10,
+                "top": 1
+            },
+            {
+                "name":"Lionel Messi",
+                "nation": "Argentina",
+                "goals": 10,
+                "top": 1
+            },{
+                "name":"Lionel Messi",
+                "nation": "Argentina",
+                "goals": 10,
+                "top": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "data":{
+        "Group":[
+            {
+                "name": "Group A",
+                "child": [
+                    {
+                        "name": "Brazil",
+                        "avatar": "https",
+                        "played": 10,
+                        "win": 10,
+                        "draw": 0,
+                        "lost": 0,
+                        "points": 30
+                    },
+                    {
+                        "name": "Brazil",
+                        "avatar": "https",
+                        "played": 10,
+                        "win": 10,
+                        "draw": 0,
+                        "lost": 0,
+                        "points": 30
+                    },
+                    {
+                        "name": "Brazil",
+                        "avatar": "https",
+                        "played": 10,
+                        "win": 10,
+                        "draw": 0,
+                        "lost": 0,
+                        "points": 30
+                    },
+                    {
+                        "name": "Brazil",
+                        "avatar": "https",
+                        "played": 10,
+                        "win": 10,
+                        "draw": 0,
+                        "lost": 0,
+                        "points": 30
+                    }
+                ]
+            },
+            {
+                "name": "Group B",
+                "child": [
+                    {
+                        "name": "Brazil",
+                        "avatar": "https",
+                        "played": 10,
+                        "win": 10,
+                        "draw": 0,
+                        "lost": 0,
+                        "points": 30
+                    },
+                    {
+                        "name": "Brazil",
+                        "avatar": "https",
+                        "played": 10,
+                        "win": 10,
+                        "draw": 0,
+                        "lost": 0,
+                        "points": 30
+                    },
+                    {
+                        "name": "Brazil",
+                        "avatar": "https",
+                        "played": 10,
+                        "win": 10,
+                        "draw": 0,
+                        "lost": 0,
+                        "points": 30
+                    },
+                    {
+                        "name": "Brazil",
+                        "avatar": "https",
+                        "played": 10,
+                        "win": 10,
+                        "draw": 0,
+                        "lost": 0,
+                        "points": 30
+                    }
+                ]
+            },
+            {
+                "name": "Group C",
+                "child": [
+                    {
+                        "name": "Brazil",
+                        "avatar": "https",
+                        "played": 10,
+                        "win": 10,
+                        "draw": 0,
+                        "lost": 0,
+                        "points": 30
+                    },
+                    {
+                        "name": "Brazil",
+                        "avatar": "https",
+                        "played": 10,
+                        "win": 10,
+                        "draw": 0,
+                        "lost": 0,
+                        "points": 30
+                    },
+                    {
+                        "name": "Brazil",
+                        "avatar": "https",
+                        "played": 10,
+                        "win": 10,
+                        "draw": 0,
+                        "lost": 0,
+                        "points": 30
+                    },
+                    {
+                        "name": "Brazil",
+                        "avatar": "https",
+                        "played": 10,
+                        "win": 10,
+                        "draw": 0,
+                        "lost": 0,
+                        "points": 30
+                    }
+                ]
+            },
+            {
+                "name": "Group D",
+                "child": [
+                    {
+                        "name": "Brazil",
+                        "avatar": "https",
+                        "played": 10,
+                        "win": 10,
+                        "draw": 0,
+                        "lost": 0,
+                        "points": 30
+                    },
+                    {
+                        "name": "Brazil",
+                        "avatar": "https",
+                        "played": 10,
+                        "win": 10,
+                        "draw": 0,
+                        "lost": 0,
+                        "points": 30
+                    },
+                    {
+                        "name": "Brazil",
+                        "avatar": "https",
+                        "played": 10,
+                        "win": 10,
+                        "draw": 0,
+                        "lost": 0,
+                        "points": 30
+                    },
+                    {
+                        "name": "Brazil",
+                        "avatar": "https",
+                        "played": 10,
+                        "win": 10,
+                        "draw": 0,
+                        "lost": 0,
+                        "points": 30
+                    }
+                ]
+            }
+        ]
+    }
+}

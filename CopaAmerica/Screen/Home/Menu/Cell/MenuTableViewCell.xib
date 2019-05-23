@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MenuTableViewCell" rowHeight="81" id="KGk-i7-Jjw" customClass="MenuTableViewCell" customModule="CopaAmerica" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="81"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="80.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fbe-fP-qLR">
+                        <rect key="frame" x="88" y="30" width="46" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.99963909390000005" green="1" blue="0.99975615740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLq-Oh-daS">
+                        <rect key="frame" x="0.0" y="0.0" width="374" height="80.5"/>
+                        <connections>
+                            <action selector="clickMenu:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Fyc-vq-F5x"/>
+                        </connections>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_menu_home" translatesAutoresizingMaskIntoConstraints="NO" id="AQ0-L2-5sC">
+                        <rect key="frame" x="41" y="27" width="27" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="O7o-mJ-7cA"/>
+                            <constraint firstAttribute="width" constant="27" id="c70-9Y-tVG"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="0.1138288751244545" green="0.13315767049789429" blue="0.27285301685333252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="AQ0-L2-5sC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="25" id="WN6-uY-fGc"/>
+                    <constraint firstItem="Fbe-fP-qLR" firstAttribute="leading" secondItem="AQ0-L2-5sC" secondAttribute="trailing" constant="20" id="bC7-Yl-igy"/>
+                    <constraint firstAttribute="trailing" secondItem="TLq-Oh-daS" secondAttribute="trailing" id="ngk-FG-Lwx"/>
+                    <constraint firstItem="TLq-Oh-daS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="oPr-R6-Fbv"/>
+                    <constraint firstItem="AQ0-L2-5sC" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="vpe-MK-OiO"/>
+                    <constraint firstAttribute="bottom" secondItem="TLq-Oh-daS" secondAttribute="bottom" id="wRK-86-k4T"/>
+                    <constraint firstItem="Fbe-fP-qLR" firstAttribute="centerY" secondItem="AQ0-L2-5sC" secondAttribute="centerY" id="y60-u0-iHQ"/>
+                    <constraint firstItem="TLq-Oh-daS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="yPk-Xk-2rJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgMenu" destination="AQ0-L2-5sC" id="zD6-1Q-EZT"/>
+                <outlet property="lbMenu" destination="Fbe-fP-qLR" id="G8P-Ce-YiW"/>
+            </connections>
+            <point key="canvasLocation" x="176" y="171.36431784107947"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_menu_home" width="46" height="46"/>
+    </resources>
+</document>
